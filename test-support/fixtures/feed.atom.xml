@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Atom Fixture</title>
+  <entry>
+    <title>Night Auditor</title>
+    <id>tag:feed.example.test,2026:job-77</id>
+    <link rel="self" href="https://feed.example.test/self/77"/>
+    <link rel="alternate" href="https://feed.example.test/jobs/77"/>
+    <updated>2026-10-06T08:00:00Z</updated>
+    <author><name>Hotel Moon</name></author>
+    <summary type="html">&lt;p&gt;Night shift&lt;/p&gt;</summary>
+  </entry>
+</feed>

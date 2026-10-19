@@ -1,0 +1,24 @@
+{
+  "jobs": [
+    {
+      "id": 4001,
+      "title": "Line Cook",
+      "updated_at": "2026-10-01T12:00:00-04:00",
+      "location": { "name": "Austin, TX" },
+      "absolute_url": "https://boards.example.test/acme/jobs/4001?utm_source=board&gh_jid=4001",
+      "content": "&lt;p&gt;Cook &amp;amp; prep in a busy kitchen.&lt;/p&gt;",
+      "departments": [{ "id": 1, "name": "Kitchen" }],
+      "company_name": "Acme Diner"
+    },
+    {
+      "id": 4002,
+      "title": "Remote Support Agent",
+      "updated_at": "2026-10-02T09:00:00-04:00",
+      "location": { "name": "Remote - US" },
+      "absolute_url": "https://boards.example.test/acme/jobs/4002",
+      "content": "&lt;p&gt;Help customers.&lt;/p&gt;",
+      "departments": []
+    }
+  ],
+  "meta": { "total": 2 }
+}

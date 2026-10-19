@@ -1,0 +1,7 @@
+{
+  "meta": { "next": "https://feed.example.test/api/jobs?page=2" },
+  "data": { "jobs": [
+    { "ref": "J-1", "name": "Pizza Cook", "employer": { "name": "Slice House" }, "link": "https://feed.example.test/j/1", "where": "Chicago, IL", "mode": "On-site", "pay": { "from": 18, "to": 21, "unit": "hour" }, "html": "<p>Make pizza</p>", "posted": "2026-10-01", "__proto__": { "x": 1 } },
+    { "ref": "J-2", "name": "Driver", "employer": { "name": "Slice House" }, "link": "http://insecure.example.test/j/2", "where": "Chicago, IL" }
+  ] }
+}

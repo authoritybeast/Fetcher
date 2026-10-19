@@ -1,0 +1,15 @@
+{
+  "offset": 0, "limit": 100, "totalFound": 1,
+  "content": [
+    {
+      "id": "7440000000000001",
+      "name": "Warehouse Associate",
+      "uuid": "bbbbbbbb-0000-4000-8000-000000000001",
+      "releasedDate": "2026-10-03T08:00:00.000Z",
+      "company": { "identifier": "BoxCo", "name": "Box Co" },
+      "location": { "city": "Columbus", "region": "OH", "country": "us", "remote": false, "fullLocation": "Columbus, OH, United States" },
+      "typeOfEmployment": { "id": "permanent", "label": "Full-time" },
+      "function": { "id": "ops", "label": "Operations" }
+    }
+  ]
+}

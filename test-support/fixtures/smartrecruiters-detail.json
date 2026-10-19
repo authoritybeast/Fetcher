@@ -1,0 +1,10 @@
+{
+  "id": "7440000000000001",
+  "postingUrl": "https://jobs.example.test/BoxCo/7440000000000001-warehouse-associate",
+  "applyUrl": "https://jobs.example.test/BoxCo/7440000000000001-warehouse-associate?oga=true&utm_campaign=x",
+  "jobAd": { "sections": {
+    "companyDescription": { "title": "Company", "text": "<p>We ship boxes.</p>" },
+    "jobDescription": { "title": "Job", "text": "<p>Lift boxes.</p>" },
+    "qualifications": { "title": "Qualifications", "text": "<ul><li>Strong</li></ul>" }
+  } }
+}

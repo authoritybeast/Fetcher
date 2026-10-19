@@ -1,0 +1,26 @@
+[
+  {
+    "id": "11111111-aaaa-4aaa-8aaa-000000000001",
+    "text": "Barista",
+    "categories": { "location": "Seattle, WA", "commitment": "Part-time", "team": "Stores", "department": "Retail", "allLocations": ["Seattle, WA"] },
+    "country": "US",
+    "description": "<div>Pour coffee.</div>",
+    "lists": [{ "text": "What you'll do", "content": "<li>Brew</li><li>Smile</li>" }],
+    "additional": "<div>Equal opportunity.</div>",
+    "hostedUrl": "https://jobs.example.test/beanco/11111111-aaaa-4aaa-8aaa-000000000001",
+    "applyUrl": "https://jobs.example.test/beanco/11111111-aaaa-4aaa-8aaa-000000000001/apply?utm_medium=x",
+    "workplaceType": "on-site",
+    "salaryRange": { "currency": "USD", "interval": "per-hour-wage", "min": 18, "max": 22 },
+    "createdAt": 1790000000000
+  },
+  {
+    "id": "11111111-aaaa-4aaa-8aaa-000000000002",
+    "text": "Regional Manager",
+    "categories": { "location": "Toronto", "commitment": "Full-time" },
+    "country": "CA",
+    "description": "<div>Lead.</div>",
+    "hostedUrl": "https://jobs.example.test/beanco/11111111-aaaa-4aaa-8aaa-000000000002",
+    "applyUrl": "https://jobs.example.test/beanco/11111111-aaaa-4aaa-8aaa-000000000002/apply",
+    "workplaceType": "unspecified"
+  }
+]

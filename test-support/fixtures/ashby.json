@@ -1,0 +1,27 @@
+{
+  "apiVersion": "1",
+  "jobs": [
+    {
+      "id": "aaaaaaaa-0000-4000-8000-000000000001",
+      "title": "Delivery Driver",
+      "department": "Operations",
+      "employmentType": "PartTime",
+      "location": "Denver, CO",
+      "isRemote": false,
+      "isListed": true,
+      "publishedAt": "2026-09-30T10:00:00.000+00:00",
+      "jobUrl": "https://jobs.example.test/zipco/aaaaaaaa-0000-4000-8000-000000000001",
+      "applyUrl": "https://jobs.example.test/zipco/aaaaaaaa-0000-4000-8000-000000000001/application",
+      "descriptionHtml": "<p>Deliver.</p>",
+      "address": { "postalAddress": { "addressLocality": "Denver", "addressRegion": "Colorado", "addressCountry": "United States" } },
+      "compensation": { "compensationTierSummary": "$20 - $24", "summaryComponents": [{ "compensationType": "Salary", "interval": "1 HOUR", "currencyCode": "USD", "minValue": 20, "maxValue": 24 }] }
+    },
+    {
+      "id": "aaaaaaaa-0000-4000-8000-000000000002",
+      "title": "Internal Only Role",
+      "isListed": false,
+      "jobUrl": "https://jobs.example.test/zipco/aaaaaaaa-0000-4000-8000-000000000002",
+      "applyUrl": "https://jobs.example.test/zipco/aaaaaaaa-0000-4000-8000-000000000002/application"
+    }
+  ]
+}

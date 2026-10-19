@@ -1,0 +1,26 @@
+{
+  "SearchResult": {
+    "SearchResultCount": 1, "SearchResultCountAll": 1,
+    "SearchResultItems": [
+      {
+        "MatchedObjectId": "800000001",
+        "MatchedObjectDescriptor": {
+          "PositionID": "TEST-26-0001",
+          "PositionTitle": "Park Ranger",
+          "PositionURI": "https://www.usajobs.example.test/job/800000001",
+          "ApplyURI": ["https://www.usajobs.example.test/GetJob/ApplyOnline/800000001"],
+          "PositionLocation": [{ "LocationName": "Moab, Utah", "CountryCode": "United States", "CountrySubDivisionCode": "Utah", "CityName": "Moab, Utah" }],
+          "OrganizationName": "National Park Service",
+          "DepartmentName": "Department of the Interior",
+          "JobCategory": [{ "Name": "Natural Resources", "Code": "0401" }],
+          "PositionSchedule": [{ "Name": "Full-time", "Code": "1" }],
+          "PositionRemuneration": [{ "MinimumRange": "46000.0", "MaximumRange": "61000.0", "RateIntervalCode": "PA", "Description": "Per Year" }],
+          "PublicationStartDate": "2026-10-01",
+          "QualificationSummary": "One year of experience.",
+          "UserArea": { "Details": { "JobSummary": "Protect the park.\nHelp visitors.", "MajorDuties": ["Patrol trails", "Answer questions <b>kindly</b>"], "RemoteIndicator": false } }
+        }
+      }
+    ],
+    "UserArea": { "NumberOfPages": 1 }
+  }
+}

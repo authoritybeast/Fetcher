@@ -1,0 +1,8 @@
+{
+  "0-legal-notice": "Fixture notice.",
+  "job-count": 2,
+  "jobs": [
+    { "id": 700001, "url": "https://remotive.example.test/remote-jobs/support/agent-700001", "title": "Support Agent", "company_name": "Helpful Inc", "category": "Customer Service", "job_type": "full_time", "publication_date": "2026-10-05T09:00:00", "candidate_required_location": "USA Only", "salary": "$40k - $50k", "description": "<p>Help.</p>" },
+    { "id": 700002, "url": "https://remotive.example.test/remote-jobs/dev/dev-700002", "title": "Developer", "company_name": "Euro Co", "category": "Software Development", "job_type": "contract", "publication_date": "2026-10-05T09:00:00", "candidate_required_location": "Worldwide", "salary": "", "description": "<p>Code.</p>" }
+  ]
+}
