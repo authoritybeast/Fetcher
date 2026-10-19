@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "slug": "kellner-berlin-1", "company_name": "Cafe Berlin", "title": "Kellner (m/w/d)", "description": "<p>Servieren.</p>", "remote": false, "url": "https://www.arbeitnow.example.test/jobs/kellner-berlin-1", "tags": ["gastronomy"], "job_types": ["full time"], "location": "Berlin", "created_at": 1790000000 }
+  ],
+  "links": { "first": "https://www.arbeitnow.com/api/job-board-api?page=1", "last": null, "prev": null, "next": "https://www.arbeitnow.com/api/job-board-api?page=2" },
+  "meta": { "current_page": 1 }
+}

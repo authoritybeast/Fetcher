@@ -1,0 +1,9 @@
+[
+  { "last_updated": 1790000000, "legal": "Fixture legal notice. Please link back to the job page and mention the source." },
+  {
+    "id": "99001", "slug": "remote-support-99001", "epoch": 1790000000, "date": "2026-10-05T10:00:00+00:00", "company": "Cloud Cafe", "position": "Remote Support Specialist",
+    "tags": ["support", "customer service"], "description": "<p>Answer tickets.</p>", "location": "United States", "salary_min": 40000, "salary_max": 52000,
+    "url": "https://remoteok.example.test/remote-jobs/remote-support-99001", "apply_url": "https://remoteok.example.test/l/99001"
+  },
+  { "id": "99002", "slug": "no-salary-99002", "company": "Tiny Co", "position": "Writer", "description": "<p>Write.</p>", "location": "Worldwide", "salary_min": 0, "salary_max": 0, "url": "https://remoteok.example.test/remote-jobs/no-salary-99002" }
+]

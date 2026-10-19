@@ -1,0 +1,13 @@
+{
+  "offers": [
+    {
+      "id": 910001, "guid": "r-910001", "slug": "shift-lead", "status": "published", "title": "Shift Lead",
+      "description": "<p>Lead the shift.</p>", "requirements": "<p>2 years experience.</p>",
+      "careers_url": "https://shopco.recruitee.example.test/o/shift-lead", "careers_apply_url": "https://shopco.recruitee.example.test/o/shift-lead/c/new",
+      "company_name": "Shop Co", "city": "Miami", "state_code": "FL", "country_code": "US", "postal_code": "33101", "location": "Miami, FL, United States",
+      "remote": false, "hybrid": true, "on_site": false, "employment_type_code": "fulltime", "department": "Stores",
+      "published_at": "2026-10-04 10:00:00 UTC", "salary": { "min": 45000, "max": 55000, "period": "year", "currency": "USD" }
+    },
+    { "id": 910002, "status": "draft", "title": "Hidden", "careers_url": "https://shopco.recruitee.example.test/o/hidden" }
+  ]
+}

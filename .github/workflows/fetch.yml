@@ -1,0 +1,48 @@
+name: Fetch jobs
+
+on:
+  schedule:
+    - cron: '17 * * * *' # hourly, at an odd minute (the top of the hour is crowded)
+  workflow_dispatch:
+    inputs:
+      source_name:
+        description: 'Run only the source with this exact name (it must be due or requested in the admin panel)'
+        required: false
+        default: ''
+        type: string
+      dry_run:
+        description: 'Fetch and normalise, but send nothing (no run is recorded)'
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: fetch
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - name: Fetch
+        run: node src/index.mjs
+        env:
+          INGEST_URL: ${{ secrets.INGEST_URL }}
+          INGEST_TOKEN: ${{ secrets.INGEST_TOKEN }}
+          USAJOBS_API_KEY: ${{ secrets.USAJOBS_API_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+          # workflow inputs go through the environment, never into the script text
+          SOURCE_NAME: ${{ inputs.source_name }}
+          DRY_RUN: ${{ inputs.dry_run }}
